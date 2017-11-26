@@ -1,0 +1,32 @@
+{
+  "name": "twitch-bot",
+  "version": "1.0.0",
+  "description": "A Node.js bot for Twitch.tv",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bot": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmorris84/twitch-bot.git"
+  },
+  "keywords": [
+    "Twitch",
+    "Bot",
+    "Node.js"
+  ],
+  "author": "Robert Morris",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rmorris84/twitch-bot/issues"
+  },
+  "homepage": "https://github.com/rmorris84/twitch-bot#readme",
+  "dependencies": {
+    "moment": "^2.19.2",
+    "tmi.js": "^1.2.1"
+  },
+  "devDependencies": {
+    "mongoose": "^4.13.5"
+  }
+}
